@@ -1,0 +1,225 @@
+body{
+margin: 0px;
+
+}
+header{
+background:  linear-gradient(0deg , rgba(217,  217,  217, 0) 0%,
+#EDA61D 100%);
+width: 100%;
+height:100vh ;
+}
+.contiener{
+margin-left: 15%;
+margin-right: 15%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding-top: 40px;
+}
+.logo{
+background-color: black;
+border-radius: 15px;
+height: 40px;
+width: 100px;
+}
+.block-logo{
+width: 30%;
+height: 40px;
+float: left;
+flex: 2;
+margin-top: 12px;
+}
+.menu{
+flex: 4;
+}
+li{
+float: left;
+list-style: none;
+margin: 15px;
+margin-left: 25px;
+
+}
+.card{
+background-color: black;
+border-radius: 50px;
+width: 25px;
+height: 25px;
+margin-top: 14px;
+
+}
+.slider-left{
+height: 300px;
+position: relative;
+margin-top: 160px;
+flex: 1;
+}
+a{
+text-decoration: none;
+font-size: 30px;
+color: black;
+}
+.slider-right{
+height: 300px;
+flex: 1;
+float: left;
+}
+.sale{
+background-color: red;
+border-radius: 15px;
+margin-top: 30px;
+border: none;
+color: white;
+padding: 10px;
+}
+.MENYU{
+text-align: center;
+
+
+}
+.contiener{
+margin-left: 15%;
+margin-right: 15%;
+display: flex;
+justify-content: center;
+flex-wrap:wrap ;
+text-align: center;
+
+}
+
+
+.block-menu{
+z-index: 1;
+width: 380px;
+height: 350px;
+flex: 1;
+}
+
+.img-item{
+width: 400px;
+height: 250px;
+margin: 10px;
+}
+footer{
+margin-top: 1600px;
+width: 100%;
+height: 200px;
+background: linear-gradient(180deg, rgba(217, 217, 217,0)  0%,
+#EDA61D 100%);
+
+
+}
+.block-menu-h2{
+    text-align: center;
+}
+li{
+text-align: center;
+
+}
+main{
+    height:100vh ;
+}
+
+
+
+.header{
+    width: 100%;
+    position: fixed;
+    background-color: #dfa02ca6;
+    top: 0;
+    z-index: 999;
+animation-name: example;
+animation-duration: 1s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+@keyframes example{
+0%{background-color: red;}
+25%{background-color: yellow;}
+50%{background-color: blueviolet;}
+75%{background-color: aquamarine;}
+100%{background-color: green;}
+}
+.form-contact{
+    text-align: center;   
+   }
+       
+   .form-contact1{
+    text-align: center;   
+   }
+   .form-contact2{
+       text-align: center;    
+   }
+   .form-contact3{
+       text-align: center;     
+   }
+   .form-contact4{
+    text-align: center;   
+
+   }
+   .contact-h2{
+   text-align: center;}
+   form{
+    padding-left: 70px;
+    padding-top: 20px;
+    background-color: blue;
+    border-radius: 20px;
+   }
+   input{
+
+    padding: 10px;
+    margin: 10px;
+    }
+table{
+width: 500px;
+height: 400px;
+margin-top: 25px;
+}    
+.model-d {
+    background-color: rgb(255 255 255 / 20%);
+    width: 75%;
+    height: 30px;
+}
+.model{
+background-color: blue;
+width: 100%;
+height: 700px;
+
+}
+
+.model-1{
+background-color: aqua;
+width: 20%;
+height: 600px;
+margin: 40px;
+float: left;
+border-radius: 20px;
+text-align: center;
+}
+.model-2{
+background-color: aqua;
+width: 20%;
+height: 600px;
+margin: 40px;
+float: left;
+border-radius: 20px;
+text-align: center;
+}
+.model-3{
+background-color: aqua;
+width: 20%;
+height: 600px;
+margin: 40px;
+float: left;    
+border-radius: 20px;
+text-align: center;
+}
+.model-4{
+background-color: aqua;
+width: 20%;
+height: 600px;
+ margin: 40px;
+float: left;   
+border-radius: 20px;
+text-align: center;
+
+}
